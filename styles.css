@@ -1,0 +1,194 @@
+#btn1 {
+  padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	margin: 3px;
+	width: 150px;
+	height: 40px;
+	background-color: #25a185;
+	cursor: pointer;
+	color: #ffffff;
+	border-radius: 10px;
+	border: 0px;
+    transition: all 0.5s;
+	font-family: Comic Sans MS;
+	font-weight: bold;
+}
+
+#btn1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#btn1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#btn1:hover span {
+  padding-right: 25px;
+}
+
+#btn1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#header{
+	background-color: #ff4530; 
+	margin: 20px 40px;
+	margin-bottom: 40px;
+	margin-top: 0%;
+	border-radius: 11px;
+	text-align:center; 
+	font-weight: bold; 
+	color: #ffffff; 
+	height: 30px; 
+	font-size: 20px;
+	font-family: Comic Sans MS;
+}
+#qs1{
+  position: absolute;
+  background-image: url('bi.png');
+  left: 10px;
+  top: 25%;
+  width: auto;
+  height: 300px;
+  border: 3px solid #C70039;
+  text-align: center;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #000000;
+  display: none;
+}
+#qs2{
+  position: absolute;
+  background-image: url('bi.png');
+  color: #000000;
+  text-align: center;
+  font-family: Comic Sans MS;
+  right: 10px;
+  top: 25%;
+  width: 320px;
+  height: 300px;
+  border: 3px solid #C70039;
+  padding-right: 1%;
+  padding-left: 1%;
+  display: none;
+}
+#scoredis{
+	position: absolute;
+	margin-top: 180px;
+	margin-left: 720px;
+	font-weight: bold;
+	font-size: 22px;
+	font-family: Comic Sans MS;
+	color: red;
+}
+#cscoredis{
+	position: absolute;
+	margin-top: 220px;
+	margin-left: 670px;
+	font-weight: bold;
+	font-size: 22px;
+	font-family: Comic Sans MS;
+	color: red;
+	display: none;
+}
+.shead{
+	font-family: Comic Sans MS;
+	font-size: 23px;
+	font-weight: bold;
+	color: #ff4530;
+}
+#settingsh{
+	position: absolute;
+	margin-left: 625px;
+	margin-top: 0px;
+	font-weight: bold;
+	font-size: 22px;
+	font-family: Comic Sans MS;
+	color: #ff4530;
+	display: none;
+}
+#settings{
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 5px;
+	font-size: 15px;
+	font-family: Comic Sans MS;
+	color: #575757;
+	display: none;
+	font-weight: bold;
+	font-size: 18px;
+}
+#si{
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	right: 50px;
+	top: 75px;
+}
+#intscore{
+	position: absolute;
+	font-family: Comic Sans MS;
+	font-weight: bold;
+	color: blue;
+	font-size: 18px;
+	top: 220px;
+	left: 51%;
+	display: none;
+}
+#sapplybtn{
+	position: absolute;
+	left: 45%;
+	top: 250px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: none;
+	text-align: center;
+	margin: 3px;
+	width: 110px;
+	height: 35px;
+	background-color: #25a185;
+	cursor: pointer;
+	color: #ffffff;
+	border: 0px;
+}
+#ns{
+	display: none;
+}
+#sresetbtn{
+	position: absolute;
+	left: 55%;
+	top: 250px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	margin: 3px;
+	display: none;
+	width: 125px;
+	height: 35px;
+	background-color: #25a185;
+	cursor: pointer;
+	color: #ffffff;
+	border: 0px;
+}
+body {
+  background-color: #ffffff;
+  background-image: url("bi.png");
+}
+#inttxt{
+	color: #000000;
+}
